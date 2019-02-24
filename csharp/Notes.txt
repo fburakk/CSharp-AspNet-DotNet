@@ -1,0 +1,24 @@
+- Sealed Keyword: Prevents class from being inherited.
+- Struct or class can not inherit from another struct. 
+- Struct can not inherit from another class.
+- Structs can not have parameterless constructor and destructor.
+- Interface members public by default.
+- Interfaces cannot contain fields.
+- Class can inherit from multiple interfaces.
+- * A class is inherited from two interfaces that have same name
+methods can "explicitly implements" both method. If it implements 
+in one time, this implementation is valid for both methods.
+- * Similarities between abstract classes and interfaces are:
+Both of them are incomplete
+Both of them can only act as base type.
+We can not generate instance from both of them.
+
+- * Interface members cannot have definitions.
+Abstract class members are private default.
+Interfaces cannot contain fields where abstract classes can have.
+Interfaces can only inherit from another interface where abstract
+classes can inherit from abstract classes and interfaces.
+Class can not inherit from multiple classes at the same time but 
+can inherit multiple interfaces at the same time.
+Abstract class members can have access modifiers where interface members 
+can not have access modifiers.
